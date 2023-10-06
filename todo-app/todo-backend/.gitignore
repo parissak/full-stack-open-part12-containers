@@ -65,3 +65,6 @@ typings/
 
 # Persisting Mongo data
 /mongo_data
+
+# Persisting Redis data
+/redis_data
