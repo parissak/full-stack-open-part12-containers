@@ -12,7 +12,7 @@ RUN CI=true npm test
 
 FROM test-stage AS build-stage
 
-ENV REACT_APP_BACKEND_URL=http://localhost:3001
+ENV REACT_APP_BACKEND_URL=http://localhost:8080/api/
 
 RUN npm run build
 
